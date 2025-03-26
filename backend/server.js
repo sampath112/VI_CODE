@@ -7,7 +7,7 @@ const app = express();
 
 // ✅ Apply Middleware in the Correct Order
 app.use(cors({
-    origin: "http://localhost:5173",  // Match your React frontend port
+    origin: "https://vi-code.onrender.com  // Match your React frontend port
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
