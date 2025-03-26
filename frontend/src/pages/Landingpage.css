@@ -1,0 +1,6 @@
+/* Import Bianka Font */
+@import url('https://fonts.cdnfonts.com/css/bianka-personal-use');
+
+body {
+    font-family: 'Bianka Personal Use', sans-serif;
+}
